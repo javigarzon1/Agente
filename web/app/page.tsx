@@ -18,9 +18,7 @@ export default function Home() {
 
       <input
         value={message}
-onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-  setMessage(e.target.value)
-}      />
+onChange={(e) => setMessage(e.target.value)}  />
 
       <button onClick={handleSend}>Enviar</button>
 
