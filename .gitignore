@@ -1,5 +1,6 @@
-node_modules/
-.next/
-.vercel/
-__pycache__/
-*.db
+node_modules
+.next
+.env
+dist
+__pycache__
+*.pyc

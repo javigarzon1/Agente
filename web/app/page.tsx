@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { sendMessage } from "../lib/api";
+import { sendMessage } from "@/lib/api";
 
 export default function Home() {
   const [message, setMessage] = useState("");
@@ -18,7 +18,8 @@ export default function Home() {
 
       <input
         value={message}
-onChange={(e) => setMessage(e.target.value)}  />
+        onChange={(e) => setMessage(e.target.value)}
+      />
 
       <button onClick={handleSend}>Enviar</button>
 
